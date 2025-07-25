@@ -1,9 +1,8 @@
 {
   "canisters": {
-    "eascrow_icp_backend": {
-      "candid": "src/eascrow_icp_backend/eascrow_icp_backend.did",
-      "package": "eascrow_icp_backend",
-      "type": "rust"
+    "escrow_backend": {
+      "main": "src/main.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
